@@ -4,7 +4,7 @@ import org.specs2.mutable.{After, SpecificationWithJUnit}
 import org.specs2.specification.Scope
 
 /**
- * 1. The `Test` suffix is the name is important because of the maven plugin that runs the tests
+ * 1. The `Test` suffix in the name is important because of the maven plugin that runs the tests
  *
  * 2. We don’t extend `org.specs2.mutable.Specification` because it won’t be run by maven. `SpecificationWithJUnit`
  *    extends `Specification` and adds a `JUnitRunner`
